@@ -1,0 +1,38 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$code-background-color: #e6e6e6;
+
+/* type scale */
+$type-size-6: 0.6875em; // ~11px
+
+/* headline scale */
+$h-size-1: 1.25em !default; // ~20px
+$h-size-2: 1.125em !default; // ~18px
+$h-size-3: 1.0625em !default; // ~17px
+$h-size-4: 1.03125em !default; // ~16.5px
+$h-size-5: 1em !default; // ~16px
+$h-size-6: 0.75em !default; // ~12px
+
+/* ORIGINAL THEME */
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* OVERRIDES */
+
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: 0.75em !important;
+  }
+}
+
+div.highlighter-rouge,
+figure.highlight {
+  margin-top: 1em;
+}
