@@ -7,7 +7,7 @@
 $code-background-color: #e6e6e6;
 
 /* type scale */
-$type-size-6: 0.6875em; // ~11px
+// $type-size-6: 0.6875em; // ~11px
 
 /* headline scale */
 $h-size-1: 1.25em !default; // ~20px
@@ -24,11 +24,13 @@ $h-size-6: 0.75em !default; // ~12px
 
 /* OVERRIDES */
 
-.page__content {
-  p,
-  li,
-  dl {
-    font-size: 0.75em !important;
+@include breakpoint($large) {
+  .page__content {
+    p,
+    li,
+    dl {
+      font-size: 0.75em !important;
+    }
   }
 }
 
