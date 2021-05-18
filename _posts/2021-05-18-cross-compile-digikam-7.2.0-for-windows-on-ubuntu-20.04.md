@@ -6,7 +6,7 @@ categories: linux ubuntu
 tags: linux ubuntu digikam compile
 ---
 
-Digikam is an open source photo management tool. Each version is released for various operating systems, including Windows. However, at some point you may need to compile your own version, for example when you want to change the source code (more on that in a future article). In the following article I show you how to compile the latest digikam version 7.2.0 for Windows operating systems. You need a linux system for that and a decent machine. In my case I am running Ubuntu 20.04 in a VirtalBox virtual machine that uses 4 CPU cores (each having 3.7 to 4.6 GHz) and 16 GiB of RAM. You need approximately 21 GiB of free disk space.
+Digikam is an open source photo management tool. Each version is released for various operating systems, including Windows. However, at some point you may need to compile your own version, for example when you want to change the source code (more on that in a future article). In the following article I show you how to compile the latest digikam version 7.2.0 for Windows operating systems. You need a linux system for that and a decent machine. In my case I am running Ubuntu 20.04 in a VirtualBox virtual machine that uses 4 CPU cores (each having 3.7 to 4.6 GHz) and 16 GiB of RAM. You need approximately 21 GiB of free disk space.
 
 {% include disclaimer.md %}
 
